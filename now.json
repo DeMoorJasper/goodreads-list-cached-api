@@ -1,0 +1,11 @@
+{
+  "regions": ["bru"],
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.ts",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [{ "src": "/.*", "dest": "/index.ts" }]
+}

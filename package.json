@@ -1,0 +1,12 @@
+{
+  "name": "goodreads-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.7.6"
+  },
+  "devDependencies": {
+    "@now/node": "^1.4.1"
+  }
+}
